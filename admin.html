@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SendIT Percel</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div id="logo"><!--logo area-->
+                <h1>SendIT Percel Services</h1>
+            </div>
+            <div id="top-nav"><!--navigation on top of page-->
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="admin.html"> Edit Delivery Order</a></li>
+                    <li><a href="index.html"> Logout </a></li>
+                </ul>
+            </div>
+        </header>
+        <section><h2>Parcel Delivery Order</h2>
+            <div class="main-container">
+                <div class="delivery-order">
+                    <h3>Parcel</h3>
+                    <ul>
+                        <li><span>From: </span>Nairobi</li>
+                        <li><span>Destination: </span>Mombasa</li>
+                        <li><span>Current location: </span>Voi</li>
+                        <li><span>Weight: </span>7kg</li>
+                        <li><span>Status: </span>On transit</li>
+                    </ul>
+                </div>
+                <div class="delivery-order">
+                    <h3>Recipient</h3>
+                    <ul>
+                        <li>James Kusyoka</li>
+                        <li>P.o. Box 110 mombasa</li>
+                        <li>phone: 0723767676</li>
+                        <li>Email: james@musyoka.com</li>
+                    </ul>
+                </div>
+                <div class="delivery-order">
+                    <h3>Change present location and status</h3>
+                    <form action="#"><h4>Choose location</h4>
+                        <select type="text" name="currentlocation">
+                            <option value="Nakuru">Nakuru</option>
+                            <option value="Kisumu">Kisumu</option>
+                            <option value="Eldoret">Eldoret</option>
+                            <option value="Mombasa">Kampala</option>
+                            <option value="Nairobi">Nairobi</option>
+                            <option value="Thika">Thika</option>
+                            <option value="Nyeri">Nyeri</option>
+                            <option value="Busia">Busia</option>
+                            <option value="Garissa">Garissa</option>
+                            <option value="Kitui">Kitui</option>
+                        </select>
+                        <h4>Choose status</h4>
+                        <select type="text" name="status">
+                            <option value="processing">Processing</option>
+                            <option value="ontransit">On transit</option>
+                            <option value="delivered">Delivered</option>
+                        </select>
+                        <button type="submit" >Update changes</button>
+                    </form>
+                </div>
+            </div>        
+        </section>
+
+    </body>
+</html>
