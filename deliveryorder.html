@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Store Manager</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+            <div id="logo"><!--logo area-->
+                <h1>SendIT Percel Services</h1>
+            </div>
+            <div id="top-nav"><!--navigation on top of page-->
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="deliveryorder.html"> Create Delivery Order </a></li>
+                    <li><a href="view.html"> View Delivery Orders</a></li>
+                    <li><a href="login.html"> Logout</a></li>
+                </ul>
+            </div>
+	</header>
+
+	<section id="delivery_order">
+		<div class="main"><!--delivery order form-->
+			<form action="#">
+                <h2>Create Delivery Order</h2><hr>
+                <label>From: </label> &nbsp; &nbsp;
+                <select type="text" name="origin"><br>
+                    <option value="Nakuru">Nakuru</option>
+                    <option value="Kisumu">Kisumu</option>
+                    <option value="Eldoret">Eldoret</option>
+                    <option value="Mombasa">Mombasa</option>
+                    <option value="Nairobi">Nairobi</option>
+                    <option value="Thika">Thika</option>
+                    <option value="Nyeri">Nyeri</option>
+                    <option value="Busia">Busia</option>
+                    <option value="Garissa">Garissa</option>
+                    <option value="Kitui">Kitui</option>
+                </select> &nbsp;
+                <label>To:</label> &nbsp;
+                <select type="text" name="destination"><br>
+                    <option value="Nakuru">Nakuru</option>
+                    <option value="Kisumu">Kisumu</option>
+                    <option value="Eldoret">Eldoret</option>
+                    <option value="Mombasa">Mombasa</option>
+                    <option value="Nairobi">Nairobi</option>
+                    <option value="Thika">Thika</option>
+                    <option value="Nyeri">Nyeri</option>
+                    <option value="Busia">Busia</option>
+                    <option value="Garissa">Garissa</option>
+                    <option value="Kitui">Kitui</option>
+                </select><br>
+                <label>Weight: </label>
+                <select type="text" name="weight"><br>
+                    <option value="0-5kg">0-5kg</option>
+                    <option value="6-10kg">6-10kg</option>
+                    <option value="11-15kg">11-15kg</option>
+                    <option value="16-20kg">16-20kg</option>
+                    <option value="21-25kg">21-25kg</option>
+                    <option value="26-30kg">26-30kg</option>
+                </select><br><br>
+                <!--Recipient's details-->
+                <h3>Recipient</h3><hr>
+                <label>Full Name:</label>
+                <input type="text" name="fullname" placeholder="Enter recipient's full name"><br>
+                <label>Address:</label>
+                <input type="text" name="address" placeholder="Enter recipient's address"><br>
+                <label>Email:</label>
+                <input type="text" name="email" placeholder="Enter recipient's email address"><br>
+                <label>Phone number:</label>
+                <input type="text" name="phonenumber" placeholder="Enter recipient's phone number"><br><br><br>
+                <!--Sender's details-->
+                <h3>Sender</h3><hr>
+                <label>Full Name:</label>
+                <input type="text" name="fullname" placeholder="Enter recipient's full name"><br>
+                <label>Address:</label>
+                <input type="text" name="address" placeholder="Enter recipient's address"><br>
+                <label>Email:</label>
+                <input type="text" name="email" placeholder="Enter recipient's email address"><br>
+                <label>Phone number:</label>
+                <input type="text" name="phonenumber" placeholder="Enter recipient's phone number"><br>
+                
+				<button>Submit</button><br>
+			</form>
+		</div>
+	</section>
+
+</body>
+</html>
