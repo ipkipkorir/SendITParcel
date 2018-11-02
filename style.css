@@ -161,3 +161,10 @@ span {
     display: block;
     line-height: 2.0;
 }
+footer {
+    background-color: grey;
+    height: 68px;
+    width: 100%;
+    text-align: center;
+    padding-top: 18px;
+}
