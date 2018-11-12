@@ -10,3 +10,13 @@ Users can change the destination of a parcel delivery order.
 Users can cancel a parcel delivery order.
 Users can see the details of a delivery order.
 Admin can change the status and present location of a parcel delivery order.
+
+How to run the application
+- Clone the repository: https://github.com/ipkipkorir/SendITParcel.git
+- Open the browser on your computer
+- copy the path to the cloned directory onto the browser's url field
+- add '/index.html' to the copied path on the url field of the browser
+- press enter
+
+On the internet:
+- Go to the link: https://ipkipkorir.github.io/SendITParcel/
