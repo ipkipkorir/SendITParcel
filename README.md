@@ -19,4 +19,4 @@ How to run the application
 - press enter
 
 On the internet:
-- Go to the link: https://ipkipkorir.github.io/SendITParcel/
+- Go to the link: https://ipkipkorir.github.io/SendITParcel/ on your browser.
