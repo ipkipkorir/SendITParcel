@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SendIT Percel</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div id="logo"><!--logo area-->
+                <h1>SendIT Percel Services</h1>
+            </div>
+            <div id="top-nav"><!--navigation on top of page-->
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="view.html"> Edit Delivery Order</a></li>
+                    <li><a href="index.html"> Logout </a></li>
+                </ul>
+            </div>
+        </header>
+        <section><h2>Parcel Delivery Order</h2>
+            <div class="main-container">
+                <div class="delivery-order">
+                    <h3>Parcel</h3>
+                    <ul>
+                        <li><span>From: </span>Nairobi</li>
+                        <li><span>Destination: </span>Mombasa</li>
+                        <li><span>Current location: </span>Voi</li>
+                        <li><span>Weight: </span>7kg</li>
+                        <li><span>Status: </span>On transit</li>
+                    </ul>
+                </div>
+                <div class="delivery-order">
+                    <h3>Recipient</h3>
+                    <ul>
+                        <li>James Kusyoka</li>
+                        <li>P.o. Box 110 mombasa</li>
+                        <li>phone: 0723767676</li>
+                        <li>Email: james@musyoka.com</li>
+                    </ul>
+                    <h3>Sender</h3>
+                    <ul>
+                        <li>John Paul</li>
+                        <li>P.o. Box 121212 Nairobi</li>
+                        <li>phone: 0722121212</li>
+                        <li>Email: john@johnpaul.com</li>
+                    </ul>
+                </div>
+                <div class="delivery-order">
+                    <h3>Change Destination</h3>
+                    <form action="#"><h4>Choose Destination</h4>
+                        <select type="text" name="currentlocation">
+                            <option value="Nakuru">Nakuru</option>
+                            <option value="Kisumu">Kisumu</option>
+                            <option value="Eldoret">Eldoret</option>
+                            <option value="Mombasa">Kampala</option>
+                            <option value="Nairobi">Nairobi</option>
+                            <option value="Thika">Thika</option>
+                            <option value="Nyeri">Nyeri</option>
+                            <option value="Busia">Busia</option>
+                            <option value="Garissa">Garissa</option>
+                            <option value="Kitui">Kitui</option>
+                        </select>
+                        <button name="submit">Change Destination</button>  
+                    </form>
+            </div>      <button name="cancel" value="cancel">Cancel Order</button>  
+        </section>
+        <section>
+
+            <div class="delivery-order-map">
+                <h3>Parcel Origin to Destination Map</h3>
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d2040518.5240863198!2d37.3149090406207!3d-2.702667272490444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2snairobi!3m2!1d-1.2920658999999999!2d36.8219462!4m5!1s0x184012e78ec02c7d%3A0xcb618bbc35d0db5a!2sMombasa!3m2!1d-4.0434771!2d39.6682065!5e0!3m2!1sen!2ske!4v1541162709137" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    
+            </div>
+        </section>
+    </body>
+</html>

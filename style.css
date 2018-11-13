@@ -1,0 +1,178 @@
+body {
+    width: 100%;
+    margin: 0;
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+/** Header**/
+header {
+    background: darkblue;
+    width: 100%;
+    margin: 0;
+    height: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* BUTTON - global*/
+button {
+    border: none;
+    background: green;
+    padding: 0 20px 0 20px;
+    color: white;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+header #logo {
+    width: auto;
+    float: left;
+
+}
+header h1 {
+    color: #fff;
+    font-weight: bolder;
+    padding: 8px 5px 0 12px;
+}
+header #top-nav {
+    width: auto;
+    float: right;
+    padding: 18px 0 0 0;
+    font-weight: bold; 
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+header li {
+    display: inline;
+    padding: 0 18px 0 18px;
+}
+header a:hover {
+    color: green;
+    background: lightgray;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+header a:active {
+    color: purple;
+}
+
+/*Sections*/
+section {
+    width: auto;
+    overflow: hidden;
+}
+section a {
+    text-decoration: none;
+}
+/* create user form */
+form {
+    background: lightgray;
+    border: blue;
+    margin: 10px;
+    width: 40%;
+    padding: 20px;
+    border-radius: 15px;
+}
+form h2 {
+    margin: 0;
+    padding: 0;
+}
+form hr {
+    margin-bottom: 18px;
+}
+form label{
+    align-content: left;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 15px;
+    
+}
+form select{
+    padding: 7px 10px; 
+    margin-top: 5px;
+    width: 30%;
+    float: center;
+}
+form input[type="text"] {
+    width: 90%;
+    padding: 8px 12px;
+    border: none;
+    float: left;
+}
+button {
+    width: 25%;
+    position: relative;
+}
+button:hover {
+    cursor: pointer;
+    background: darkgreen;
+    color: white;
+    border-radius: 27px;
+}
+
+/*anchor within login form*/
+#login a:hover {
+    text-decoration: none;
+    color: white;
+    background: green;
+    padding: 12px;
+    border-radius: 25px;
+}
+
+/*admin page*/
+.main-container {
+    width: 99%;
+    margin: auto;
+    display: inline-flex;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+.delivery-order {
+    width: 33%;
+    background: lightgray;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 8px;
+}
+.delivery-order select{
+    width: 100%;
+    padding: 8px;
+}
+.delivery-order button{
+    width: auto;
+}
+.delivery-order h3 {
+    margin: 0;
+    padding: 15px 0 10px 8px;
+}
+span {
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.5;
+}
+.delivery-order li {
+    display: block;
+    line-height: 2.0;
+}
+footer {
+    background-color: grey;
+    height: 68px;
+    width: 100%;
+    text-align: center;
+    padding-top: 18px;
+}
+/* map */
+.delivery-order-map {
+    width: 50%;
+    background: lightgray;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 8px;
+}
